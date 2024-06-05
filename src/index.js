@@ -7,7 +7,7 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
 function makeImage({ imageURL }) {
-  const image = docuemnt.createElement('img')
+  const image = document.createElement('img')
   image.src = imageURL
   // image.style.height = '10em'
   return image
@@ -41,7 +41,7 @@ const {open, close } = constants
 // TASK 3- Comment out the div.panel from index.html and grab its parent element.
 //  We will generate the panel with code, and we'll need the parent
 //  so we can append the code-generated panel to the DOM.
-const accordion = null
+const accordion = document.querySelector('.accordion')
 
 
 // TASK 4- Create a function 'makePanel' that creates a panel exactly as you see it in the HTML.
