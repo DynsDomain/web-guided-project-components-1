@@ -33,7 +33,9 @@ const {open, close } = constants
  // log the panelData
  // log the open arrow
  // log the close arrow
- 
+ console.log(panelData);
+ console.log(open);
+ console.log(close);
 
 
 // TASK 3- Comment out the div.panel from index.html and grab its parent element.
